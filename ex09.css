@@ -1,0 +1,46 @@
+
+* { margin: 0px; padding: 0px;}
+body { background: rgb(87, 109, 134); width: 960px; margin: 0px auto;}
+#page { background: rgb(245, 215, 176);
+        box-shadow: rgb(60, 76, 94) 10px 10px 10px; 
+        border-radius: 10px;
+        margin-top: 30px;
+        padding: 20px;
+        }
+#top{
+    background: tan;
+    color: rgb(83, 76, 65);
+}
+#center{
+    background: rgb(110, 125, 143);
+    padding: 20px;
+    width: 880px;
+    overflow: hidden;
+    text-align: center;
+}
+#bottom{
+    background:rgb(148, 130, 108);
+    color: rgb(255, 241, 219);
+}
+#left{
+    background: rgb(60, 76, 94);
+    color: rgb(219, 233, 255);
+    width: 300px;
+    float: left;
+}
+#right{
+    background: rgb(50, 81, 117);
+    color: rgb(219, 233, 255);
+    width: 550px;
+    float: left;
+    margin-left: 10px;
+}
+#right .box {
+    margin: 10px;
+    background: rgb(81, 120, 165);
+    width: 250px;
+    float: left;
+    text-align: center;
+}
+h1 {text-align: center;}
+

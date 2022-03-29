@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            width: 960px;
+            height: 1500px;
+            margin: 0px auto;
+        }
+        #page{
+            width: 100%;
+            height: 100%;
+        }
+        #top{
+            border: solid black 1px;
+            height: 100px;
+        }
+        #centertop{
+            width: 100%;
+            margin-top: 10px;
+            overflow: hidden;
+            text-align: center;
+        }
+        #centertop .ctbox{
+            border: solid black 1px;
+            height: 200px;
+            width: 32%;
+            float: left;
+            margin: 0px 5px;
+        }
+        #centerbottom{
+            width: 100%;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        #cbleft{
+            border: solid black 1px;
+            width: 30%;
+            float: left;
+            height: 600px;
+        }
+        #cbright{
+            border: solid black 1px;
+            width: 68%;
+            float: right;
+            height: 600px;
+        }
+        #bottom{
+            width: 100%;
+            margin-top: 10px;
+            overflow: hidden;
+            text-align: center;
+        }
+        #bottom .bottombox{
+            border: solid black 1px;
+            height: 200px;
+            width: 49%;
+            float: left;
+            margin:0px 3px;
+        }
+    </style>
+</head>
+<body>
+    <div id=page>
+        <div id=top></div>
+        <div id=centertop>
+            <div class=ctbox></div>
+            <div class=ctbox></div>
+            <div class=ctbox></div>
+        </div>
+        <div id=centerbottom>
+            <div id=cbleft></div>
+            <div id=cbright></div>
+    
+        </div>
+        <div id=bottom>
+            <div class=bottombox></div>
+            <div class=bottombox></div>
+        </div>
+    </div>
+</body>
+</html>
